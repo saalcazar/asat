@@ -2,7 +2,7 @@ import education from '../../../assets/education.jpg'
 import './Education.css'
 const Education = () => {
   return (
-    <main className="main-education">
+    <main className="main-education scrolls">
       <section className='banner-education'>
         <img className='banner-education-img' src={education} alt="" />
       </section>

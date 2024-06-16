@@ -28,6 +28,85 @@
   box-shadow: var(--shadow1);
 }
 
-.nav-menu {
-  display: none;
+.close-menu {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.nav-menu {
+  position: absolute;
+  width: 90%;
+  height: 100vh;
+  background-color: rgba(246, 246, 246, .9);
+  right: 0;
+  top: 0;
+}
+
+.hiden-menu {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.menu {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-menu {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-menu:active, .item-menu:hover {
+  color: var(--color2);
+}
+
+.menu-list > div > svg {
+  margin-left: 10px;
+  color: var(--color2);
+  transition: transform .3s ease;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-menu {
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list:hover .second-menu {
+  height: 220px;
+}
+
+.menu-list:hover > div > svg {
+  transform: rotate(180deg);
+}
+
+.item-second-menu {
+  margin-top: .5rem;
+  color: var(--color1);
+}
+
+.item-second-menu:hover {
+  color: var(--color2);
+}
+

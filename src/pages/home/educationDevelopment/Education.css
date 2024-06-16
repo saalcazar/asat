@@ -18,32 +18,6 @@
   z-index: 10;
 }
 
-.banner-education::after {
-  content: '';
-  display: block;
-  background-color: var(--color1);
-  opacity: .3;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  position: fixed;
-  left: -80px;
-  top: 160px;
-}
-
-.banner-education::before {
-  content: '';
-  display: block;
-  background-color: var(--color1);
-  opacity: .3;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  position: fixed;
-  right: -80px;
-  top: 160px;
-}
-
 .banner-education-img {
   width: 150%;
   object-fit: cover;
