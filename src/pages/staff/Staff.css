@@ -1,0 +1,41 @@
+.main-staff {
+  padding: 6rem 1rem 1rem 1rem;
+}
+
+.cards {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.img-conteiner-card {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-card {
+  object-fit: cover;
+}
+
+.article-card {
+  grid-column: 2 / 4;
+  padding: .5rem;
+}
+
+.title-card {
+  margin-bottom: .6rem;
+}
+
+.grade-card {
+  margin-bottom: .6rem;
+}

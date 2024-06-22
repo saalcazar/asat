@@ -4,6 +4,8 @@
   position: fixed;
   z-index: 50;
   top: 0;
+  background-color: var(--color3);
+  box-shadow: var(--shadow1);
 }
 
 .header-menu {
@@ -20,12 +22,16 @@
 .toggle-menu {
   width: 49px;
   height: 49px;
-  background: var(--color6);
+  background: var(--color5);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: var(--shadow1);
+}
+
+.color2{
+  color: var(--color2);
 }
 
 .close-menu {

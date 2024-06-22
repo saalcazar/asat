@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom'
 import promotion from '../../../assets/promotion.jpg'
 import './Promotion.css'
 const Promotion = () => {
+  const project = 'Promotores Derechos Humanos'
   return (
     <main className='main-promotion'>
       <section className='banner-promotion'>
@@ -16,7 +18,7 @@ const Promotion = () => {
         <p className='color-light kantumruy-pro-light p-article'>
         Un riachuelo llamado Pons fluye por su pueblo y los abastece con las normas necesarias...
         </p>
-        <button className='b-article color-light kantumruy-pro-light' type="button">saber más...</button>
+        <Link className='b-article color-light kantumruy-pro-light' to={project}>saber más...</Link>
       </article>
     </main>
   )

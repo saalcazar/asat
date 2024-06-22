@@ -13,7 +13,7 @@
   --color4: #0a837f;
   --color5: #076461 ;
   --color6: #f6f6f6;
-  --shadow1: 0 2px 2px rgba(0, 44, 43, .65);
+  --shadow1: 0 2px 2px rgba(0, 44, 43, .3);
 }
 
 .kantumruy-pro-thin {
@@ -53,6 +53,6 @@ img {
   width: 100%;
 }
 
-ul, li, a, ol {
+ul, li, a, ol, button {
   all: unset;
 }

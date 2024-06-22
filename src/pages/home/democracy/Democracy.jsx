@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom'
 import democracy from '../../../assets/democracy.jpg'
 import './Democracy.css'
 const Democracy = () => {
+  const project = 'Ayni Democracia'
   return (
     <main className="main-democracy">
       <article className='article-democracy'>
@@ -13,7 +15,7 @@ const Democracy = () => {
         <p className='color-light kantumruy-pro-light p-article'>
         Un riachuelo llamado Pons fluye por su pueblo y los abastece con las normas necesarias...
         </p>
-        <button className='b-article color-light kantumruy-pro-light' type="button">saber más...</button>
+        <Link className='b-article color-light kantumruy-pro-light' to={project} >saber más...</Link>
       </article>
       <section className='banner-democracy'>
         <img className='banner-democracy-img' src={democracy} alt="" />

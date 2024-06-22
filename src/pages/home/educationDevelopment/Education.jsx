@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom'
 import education from '../../../assets/education.jpg'
 import './Education.css'
 const Education = () => {
+  const project = 'Educación para el Desarrollo'
   return (
     <main className="main-education scrolls">
       <section className='banner-education'>
@@ -16,7 +18,7 @@ const Education = () => {
         <p className='color-light kantumruy-pro-light p-article'>
         Un riachuelo llamado Pons fluye por su pueblo y los abastece con las normas necesarias...
         </p>
-        <button className='b-article color-light kantumruy-pro-light' type="button">saber más...</button>
+        <Link className='b-article color-light kantumruy-pro-light' to={project} >saber más...</Link>
       </article>
     </main>
   )

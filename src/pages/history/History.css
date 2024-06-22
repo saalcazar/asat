@@ -1,0 +1,23 @@
+.main-history {
+  padding: 6rem 1rem 1rem 1rem;
+  background-color: var(--color5);
+}
+
+.title-history {
+  color: var(--color6);
+  border-bottom: solid 2px var(--color4);
+  background: url('../../assets/history.jpg') no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  padding: 4rem 1rem;
+  font-size: 1.8rem;
+}
+
+.history-p {
+  margin-top: 1rem;
+  color: var(--color6);
+}
+
+.history-accent {
+  color: var(--color4)
+}

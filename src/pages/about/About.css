@@ -28,12 +28,12 @@
 }
 
 .about-list-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: .3rem;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: .2rem;
+  margin-bottom: .5rem;
 }
 
 .about-list-check {
   color: var(--color1);
-  margin-right: .5rem;
 }
