@@ -47,6 +47,7 @@
 body {
   color: var(--color1);
   position: relative;
+  background: var(--color1);
 }
 
 img {
