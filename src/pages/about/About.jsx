@@ -19,17 +19,17 @@ const About = () => {
 
   return (
     <main className="about">
-      <h1 className='title kantumruy-pro-regular'>QUIENES SOMOS</h1>
-      <article className='about-article kantumruy-pro-regular'>
-        <h2 className='about-title'>{about[0].tVision}</h2>
+      <h1 className='title-article kantumruy-pro-regular'>VALORES INSTITUCIONALES</h1>
+      <article className='about-article vision kantumruy-pro-regular'>
+        <h2 className='about-title-article'>{about[0].tVision}</h2>
         <p className='about-p kantumruy-pro-light'>{about[0].cVision}</p>
       </article>
-      <article className='about-article kantumruy-pro-regular'>
-        <h2 className='about-title'>{about[0].tMision}</h2>
+      <article className='about-article mision kantumruy-pro-regular'>
+        <h2 className='about-title-article'>{about[0].tMision}</h2>
         <p className='about-p kantumruy-pro-light'>{about[0].cMision}</p>
       </article>
-      <article className='about-article kantumruy-pro-regular'>
-        <h2 className='about-title'>Valores institucionales</h2>
+      <article className='about-article valores kantumruy-pro-regular'>
+        <h2 className='about-title-article'>Valores institucionales</h2>
         <p className='about-p kantumruy-pro-light about-list'>
           {
             valuesSplit.map((value, index) => (
@@ -41,12 +41,12 @@ const About = () => {
           }
         </p>
       </article>
-      <article className='about-article kantumruy-pro-regular'>
-        <h2 className='about-title'>Objetivo</h2>
+      <article className='about-article objetivo kantumruy-pro-regular'>
+        <h2 className='about-title-article'>Objetivo</h2>
         <p className='about-p kantumruy-pro-light'>{about[0].objetive}</p>
       </article>
-      <article className='about-article kantumruy-pro-regular'>
-        <h2 className='about-title'>Objetivos específicos</h2>
+      <article className='about-article objetivos kantumruy-pro-regular'>
+        <h2 className='about-title-article'>Objetivos específicos</h2>
         <p className='about-p kantumruy-pro-light about-list'>
           {
             especificsSplit.map((value, index) => (

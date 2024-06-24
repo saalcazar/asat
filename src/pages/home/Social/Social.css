@@ -1,12 +1,13 @@
 .main-social{
+  padding: 6rem 1rem 1rem 1rem;
   min-height: 100vh;
-  background: var(--color2);
+  background: var(--color3);
   padding: 6rem 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main-social > .fb-page {
-  border: 5px solid #ccc;
+.title-social {
+  margin-bottom: 1.5rem;
 }

@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <main className='main-menu'>
-      <header className='header-menu'>
+      <header className='header-menu menu-container'>
         <div className='logo-header'>
           <a href="/"><img src={logo} alt="" /></a>
         </div>
@@ -42,7 +42,7 @@ const Header = () => {
                 <li className='separator-dark'></li>
                 <li className='item-second-menu'><a href="/about">Valores institucionales</a></li>
                 <li className='separator-dark'></li>
-                <li className='item-second-menu'><a href="/staff">Nuestro Staff</a></li>
+                <li className='item-second-menu'><a href="/staff">Nuestro equipo</a></li>
               </ul>
             </li>
             <li className='separator-dark'></li>
@@ -52,13 +52,15 @@ const Header = () => {
                 <svg  xmlns="http://www.w3.org/2000/svg"  width="15"  height="15"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-triangle rotate-icon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 1.67a2.914 2.914 0 0 0 -2.492 1.403l-8.11 13.537a2.914 2.914 0 0 0 2.484 4.385h16.225a2.914 2.914 0 0 0 2.503 -4.371l-8.116 -13.546a2.917 2.917 0 0 0 -2.494 -1.408z" /></svg>
               </div>
               <ul className='second-menu'>
-                <li className='item-second-menu'>Proyecto uno</li>
+                <li className='item-second-menu'>Educación para el desarrollo</li>
                 <li className='separator-dark'></li>
-                <li className='item-second-menu'>Proyecto dos</li>
+                <li className='item-second-menu'>ASAT Protegeres</li>
                 <li className='separator-dark'></li>
-                <li className='item-second-menu'>Proyecto tres</li>
+                <li className='item-second-menu'>Futbol sin fronteras</li>
                 <li className='separator-dark'></li>
-                <li className='item-second-menu'>Proyecto cuatro</li>
+                <li className='item-second-menu'>Ayni democracia</li>
+                <li className='separator-dark'></li>
+                <li className='item-second-menu'>Promotores DDHH</li>
               </ul>
             </li>
             <li className='separator-dark'></li>

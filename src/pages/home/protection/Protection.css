@@ -2,13 +2,14 @@
   width: 100%;
   height: 100vh;
   background-color: var(--color2);
+  padding: 6rem 1rem 1rem 1rem;
 }
 
 .article-protection {
-  padding-block: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .title-article-protection {

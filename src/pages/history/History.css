@@ -3,11 +3,20 @@
   background-color: var(--color5);
 }
 
+@media (width > 600px) {
+  .main-history {
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    padding-inline: 5rem;
+  }
+}
+
 .title-history {
   color: var(--color6);
   border-bottom: solid 2px var(--color4);
   background: url('../../assets/history.jpg') no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   padding: 4rem 1rem;
   font-size: 1.8rem;
