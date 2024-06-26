@@ -1,0 +1,61 @@
+.staff-home {
+  padding: 1rem;
+  background: var(--color4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (width < 800px) {
+  .staff-home {
+    height: auto;
+    padding: 6rem 1rem 1rem 1rem;
+  }
+}
+
+@media (width > 1600px) {
+  .staff-home {
+    grid-column: 3 / 5;
+  }
+}
+
+.title-staff-home {
+  text-align: center;
+}
+
+.employes-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.card-employes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  justify-self: center;
+}
+
+.photo-employes {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: var(--shadow1);
+  margin-bottom: .7rem;
+}
+
+.name-employes {
+  color: var(--color3);
+}
+
+.grade-employes {
+  color: var(--color6);
+  text-align: center;
+}

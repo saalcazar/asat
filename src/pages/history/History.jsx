@@ -11,13 +11,15 @@ const History = () => {
  
   return (
     <main className='main-history'>
-      <article>
+      <article className='history'>
         <h2 className='kantumruy-pro-regular title-history'>{history[0].title}</h2>
-        {
-          historySlice.map((content, index) => (
-            <p key={index} className='kantumruy-pro-light history-p'>{content}</p>
-          ))
-        }
+        <div className='content-history'>
+          {
+            historySlice.map((content, index) => (
+              <p key={index} className='kantumruy-pro-light history-p'>{content}</p>
+            ))
+          }
+        </div>
       </article>
     </main>
   )

@@ -22,6 +22,33 @@
   font-size: 1.8rem;
 }
 
+.history {
+  display: block;
+}
+
+@media (width > 800px) {
+  .history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .title-history {
+    writing-mode: vertical-lr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/history.jpg') no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+
+  .content-history {
+    grid-column: span 2;
+  }
+}
+
 .history-p {
   margin-top: 1rem;
   color: var(--color6);

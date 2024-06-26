@@ -5,6 +5,7 @@ import Education from "./educationDevelopment/Education"
 import Futbol from "./futbol/Futbol"
 import Promotion from "./promotion/Promotion"
 import Protection from "./protection/Protection"
+import Staff from './staff/Staff'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Democracy />
       <Promotion />
       <Social />
+      <Staff />
     </main>
   )
 }
