@@ -13,6 +13,7 @@ const Projects = () => {
 
   const [project, setProject] = useState({})
   const [content, setContent] = useState([])
+  const [modal, setModal] = useState(false)
 
   const projects = [
     {
@@ -48,20 +49,39 @@ const Projects = () => {
     setContent(findProject.content.split('\n'))
   }, [titleName])
 
-  console.log(content)
+  useEffect(() => {
+    const newModal = document.getElementById('modal')
+    if (modal) {
+      newModal.classList.add('modal')
+    } else {
+      newModal.classList.remove('modal')
+    }
+  }, [modal])
+
+  const openModal = () => {
+    setModal(!modal)
+  }
 
   return (
     <main className='main-projects'>
       <h2 className='title-projects kantumruy-pro-regular'>{project.title}</h2>
-      {
-        content.map((item, index) => (
-          <p className='p-projects kantumruy-pro-light' key={index}>{item}</p>
-        ))
-      }
+      <section className='content-project'>
+        {
+          content.map((item, index) => (
+            <p className='p-projects kantumruy-pro-light' key={index}>{item}</p>
+          ))
+        }
+      </section>
       <section className='slider-projects'>
-        <img src={project.image} alt="" />
-        <img src={project.image} alt="" />
-        <img src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
+        <img id="modal" className='' onClick={openModal} src={project.image} alt="" />
       </section>
     </main>
   )
