@@ -1,0 +1,63 @@
+.main-construction {
+  background: rgb(10,131,127);
+  background: linear-gradient(-45deg, rgba(10,131,127,1) 0%, rgba(255,188,17,1) 33%, rgba(255,61,0,1) 66%, rgba(0,44,43,1) 100%);
+  background-size: 400% 400%;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  animation: 30s ease-in infinite back;
+}
+
+@keyframes back {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title-construction {
+  color: var(--color1);
+}
+
+.img-construction {
+  width: 40%;
+}
+
+.img-construction > img {
+  filter: drop-shadow(2px 2px 1px var(--color1));
+}
+
+.social-construction {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color1);
+  mix-blend-mode: multiply;
+  font-size: .7rem;
+}
+
+.icon-construction {
+  cursor: pointer;
+  color: var(--color6);
+  width: 41px;
+  height: 41px;
+}
+
+.description {
+  text-align: center;
+}
+
+.subtitle-construction:first-child {
+  margin-bottom: 1rem;
+}
