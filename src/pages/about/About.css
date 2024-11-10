@@ -1,0 +1,89 @@
+.about {
+  width: 100%;
+  height: auto;
+  background-color: var(--color2);
+  padding: 6rem 1rem 1rem 1rem;
+  color: var(--color6)
+}
+
+.title-article {
+  grid-area: title;
+  justify-self: center;
+}
+
+.about-article {
+  margin-top: 1.5rem;
+}
+
+.vision {
+  grid-area: vision;
+}
+
+.mision {
+  grid-area: mision;
+}
+
+.valores {
+  grid-area: valores;
+}
+
+.objetivo {
+  grid-area: objetivo;
+}
+
+.objetivos {
+  grid-area: objetivos;
+}
+
+.about-title-article {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 1rem;
+  background-color: var(--color1);
+}
+
+.about-p {
+  padding-left: 1rem;
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.about-list-item {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: .2rem;
+  margin-bottom: .5rem;
+}
+
+.about-list-check {
+  color: var(--color1);
+}
+
+@media (width > 600px) {
+  .about {
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-inline: 5rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "title title title title title title"
+      "vision vision vision mision mision mision"
+      "valores valores objetivo objetivo objetivos objetivos"
+    ;
+    gap: 1rem;
+  }
+
+  .about-article {
+    background: var(--color5);
+    padding-right: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 0;
+  }
+}

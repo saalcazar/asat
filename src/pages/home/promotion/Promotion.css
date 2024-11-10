@@ -1,0 +1,27 @@
+.main-promotion {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color5);
+  padding-top: 10rem;
+}
+
+.banner-promotion {
+  border-radius: 0px 100px 0px 100px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.article-promotion {
+  text-align: center;
+}
+
+.title-article-promotion {
+  margin-top: -30px;
+}
+
+.title-underline-promotion {
+  margin: 0 auto;
+  height: 15px;
+  width: 190px;
+  background-color: var(--color1);
+}

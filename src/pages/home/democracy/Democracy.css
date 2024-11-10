@@ -1,0 +1,30 @@
+.main-democracy {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10rem;
+  background-color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-democracy {
+  width: 100%;
+  text-align: center;
+}
+
+.title-article-democracy {
+  color: var(--color5);
+  margin-top: -30px;
+}
+
+.title-underline-democracy {
+  margin: 0 auto;
+  height: 15px;
+  width: 170px;
+  background: var(--color6);
+}
+
+.banner-democracy {
+  margin-top: 3rem;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #002c2b;
+  --color2: #ff3d00;
+  --color3: #ffbc11;
+  --color4: #0a837f;
+  --color5: #076461 ;
+  --color6: #f6f6f6;
+  --shadow1: 0 2px 2px rgba(0, 44, 43, .3);
+  --shadow2: 0 2px 2px rgb(10 131 127 / .2);
+}
+
+.kantumruy-pro-thin {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.kantumruy-pro-light {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kantumruy-pro-regular {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kantumruy-pro-bold {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  color: var(--color1);
+  background: var(--color1);
+}
+
+img {
+  width: 100%;
+}
+
+ul, li, a, ol, button {
+  all: unset;
+}

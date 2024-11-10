@@ -1,0 +1,80 @@
+.main-projects {
+  padding: 6rem 1rem 1rem 1rem;
+  background-color: var(--color6);
+}
+
+@media (width > 800px) {
+  .main-projects {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+.title-projects {
+  padding: 1rem;
+  background: url('../../assets/history.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color6);
+  margin-bottom: 1rem;
+}
+
+@media (width > 800px) {
+  .title-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+}
+
+.p-projects {
+  margin-bottom: 1rem;
+}
+
+.slider-projects {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+@media (width > 800px) {
+  .slider-projects {
+    height: calc(100vh - 150px);
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: auto;
+    align-items: center;
+  }
+}
+
+.slider-projects > img {
+  width: 80%;
+  object-fit: cover;
+  margin: 0 .5rem;
+  scroll-snap-align: center;
+  border-radius: 8px;
+}
+
+@media (width > 800px) {
+  .slider-projects > img{
+    margin: .5rem 0;
+    transition: width .3s ease;
+  }
+
+  .slider-projects > img:hover {
+    width: 83%;
+  }
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  padding: auto;
+}

@@ -1,0 +1,34 @@
+.main-protection {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color2);
+  padding: 6rem 1rem 1rem 1rem;
+}
+
+.article-protection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.title-article-protection {
+  margin-top: -30px;
+}
+
+.title-underline-protection {
+  margin-top: 15px;
+  height: 15px;
+  width: 170px;
+  background-color: var(--color1);
+}
+
+.banner-protection {
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 307px;
+  height: 307px;
+  border-radius: 50%;
+  overflow: hidden;
+}
