@@ -6,7 +6,7 @@
   height: 100vh;
   display: grid;
   place-content: center;
-  animation: 30s ease-in infinite back;
+  animation: 20s ease-in infinite back;
 }
 
 .container-construction {
