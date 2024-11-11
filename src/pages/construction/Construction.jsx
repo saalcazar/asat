@@ -4,7 +4,7 @@ const Construction = () => {
   return (
     <main className='main-construction'>
       <section className='container-construction'>
-        <h1 className='title-construction kantumruy-pro-bold'>¡Estamos trabajando en algo increible!</h1>
+        <h1 className='title-construction kantumruy-pro-bold'>¡ESTAMOS TRABAJANDO EN ALGO INCREIBLE!</h1>
         <div className='img-construction'>
           <img src={asat} alt='ASAT' />
         </div>
@@ -26,7 +26,7 @@ const Construction = () => {
           </li>
         </ul>
         <article className='description'>
-          <h2 className='subtitle-construction kantumruy-pro-regular'>Gracias por tu paciencia.</h2>
+          <h2 className='subtitle-construction permanent-marker-regular'>Gracias por tu paciencia.</h2>
           <h2 className='subtitle-construction kantumruy-pro-regular'>Estamos emocionados de compartir esto contigo pronto.</h2>
         </article>
       </section>

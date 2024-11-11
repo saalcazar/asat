@@ -37,6 +37,7 @@
 .title-construction {
   text-align: center;
   color: var(--color6);
+  font-size: 1.8rem;
 }
 
 .img-construction {
@@ -44,6 +45,9 @@
 }
 
 @media (width < 400px) {
+  .title-construction {
+    font-size: 1.5rem;
+  }
   .img-construction {
     width: 100%;
   }
@@ -65,11 +69,25 @@
   font-size: .7rem;
 }
 
+@media (width < 400px) {
+  .social-construction {
+    width: 45px;
+    height: 45px;
+  }
+}
+
 .icon-construction {
   cursor: pointer;
   color: var(--color6);
   width: 41px;
   height: 41px;
+}
+
+@media (width < 400px) {
+  .icon-construction {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .description {
@@ -85,6 +103,6 @@
 
 .subtitle-construction:first-child {
   display: inline-block;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--color1);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
 }
